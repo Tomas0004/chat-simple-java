@@ -28,24 +28,24 @@ import java.nio.charset.StandardCharsets;
  */
 public class Client extends Application {
 
-    private Socket socket;
-    private PrintWriter salida;
-    private boolean conectado = false;
+    public Socket socket;
+    public PrintWriter salida;
+    public boolean conectado = false;
 
     // Saludos rápidos: al pulsarlos se escriben en el campo de mensaje
-    private final String[] saludos = {
+    public final String[] saludos = {
             "¡Hola a todos!", "Saludos", "Hola", "Todo bien, todo correcto"
     };
 
     // Elementos de la pantalla
-    private TextField campoHost;
-    private TextField campoPuerto;
-    private TextField campoNombre;
-    private Button botonConectar;
-    private TextArea chat;
-    private TextField campoMensaje;
-    private Button botonEnviar;
-    private HBox filaSaludos;
+    public TextField campoHost;
+    public TextField campoPuerto;
+    public TextField campoNombre;
+    public Button botonConectar;
+    public TextArea chat;
+    public TextField campoMensaje;
+    public Button botonEnviar;
+    public HBox filaSaludos;
 
     public static void main(String[] args) {
         launch(args);
