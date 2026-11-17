@@ -1,4 +1,4 @@
-# CHAT SIMPLE - JAVA
+# Chat simple - java
 
 Antes de ejecutar el programa, es necesario estar conectado en la misma sala del chat.
 
